@@ -1,8 +1,6 @@
 # Bennett Ross — Maker Portfolio Template
 
-A static, two-page portfolio site (Home + Projects) styled after Aaed Musa's site,
-reworked into a navy / gray / white "blueprint" theme for a maker rather than a
-content creator. No build step — plain HTML/CSS/JS, ready for GitHub Pages.
+A static, two-page portfolio site (Home + Projects) — plain HTML/CSS/JS, ready for GitHub Pages.
 
 ## Structure
 
@@ -44,11 +42,3 @@ assets/                Placeholder images (SVG) — swap these for your own phot
   resume (a hosted PDF link, or a file you add to the repo).
 - **Fonts**: pulled from Google Fonts (Space Grotesk, Inter, IBM Plex Mono) via
   the `<link>` tags in each page's `<head>`.
-
-## Notes
-
-- Removed: YouTube, Patreon, Instagram, and X/Twitter links and sections —
-  only LinkedIn remains, per the brief.
-- Design signature: corner "datum marks" on images/cards and dimension-line
-  section dividers, referencing technical/engineering drawings — fitting for a
-  mechanical engineering portfolio.
