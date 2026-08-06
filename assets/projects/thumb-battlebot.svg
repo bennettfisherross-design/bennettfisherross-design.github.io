@@ -1,0 +1,18 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#e7eaee" stroke-width="1"/>
+    </pattern></defs>
+  <rect width="800" height="600" fill="#f4f6f8"/>
+  <rect width="800" height="600" fill="url(#g)"/>
+  
+  <g stroke="#1c3a63" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="400.0" cy="240.0" r="14" fill="#0b1d3a" stroke="none"/>
+    <line x1="400.0" y1="240.0" x2="330.0" y2="310.0"/>
+    <line x1="330.0" y1="310.0" x2="410.0" y2="370.0"/>
+    <circle cx="330.0" cy="310.0" r="8" fill="#35578a" stroke="none"/>
+    <circle cx="410.0" cy="370.0" r="8" fill="#35578a" stroke="none"/>
+    <rect x="370.0" y="370.0" width="80" height="14" rx="2" fill="#5a6472" stroke="none"/>
+  </g>
+  <text x="24" y="554" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1" fill="#35578a">BUILD // 01</text>
+  <text x="24" y="576" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="600" fill="#0b1d3a">COMBAT ROBOT</text>
+</svg>

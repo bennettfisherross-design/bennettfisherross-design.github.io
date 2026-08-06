@@ -1,0 +1,10 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#e7eaee" stroke-width="1"/>
+    </pattern></defs>
+  <rect width="800" height="600" fill="#f4f6f8"/>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <polygon points="470.0,290.0 451.9,306.9 456.6,331.1 432.1,334.2 421.6,356.6 400.0,344.6 378.4,356.6 367.9,334.2 343.4,331.1 348.1,306.9 330.0,290.0 348.1,273.1 343.4,248.9 367.9,245.8 378.4,223.4 400.0,235.4 421.6,223.4 432.1,245.8 456.6,248.9 451.9,273.1" fill="#1c3a63"/><circle cx="400.0" cy="290.0" r="24.5" fill="#f4f6f8"/>
+  <text x="24" y="554" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1" fill="#35578a">BUILD // 05</text>
+  <text x="24" y="576" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="600" fill="#0b1d3a">PLANETARY GEARBOX</text>
+</svg>
