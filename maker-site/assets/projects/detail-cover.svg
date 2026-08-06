@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="gw" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#e7eaee" stroke-width="1"/>
+    </pattern></defs>
+  <rect width="1600" height="900" fill="#f4f6f8"/>
+  <rect width="1600" height="900" fill="url(#gw)"/>
+  
+  <g>
+    <rect x="690.0" y="420.0" width="220" height="60" rx="10" fill="#0b1d3a"/>
+    <line x1="710.0" y1="460.0" x2="696.5" y2="540.0" stroke="#1c3a63" stroke-width="6" stroke-linecap="round"/><circle cx="696.5" cy="540.0" r="5" fill="#35578a"/><line x1="770.0" y1="460.0" x2="765.5" y2="540.0" stroke="#1c3a63" stroke-width="6" stroke-linecap="round"/><circle cx="765.5" cy="540.0" r="5" fill="#35578a"/><line x1="830.0" y1="460.0" x2="834.5" y2="540.0" stroke="#1c3a63" stroke-width="6" stroke-linecap="round"/><circle cx="834.5" cy="540.0" r="5" fill="#35578a"/><line x1="890.0" y1="460.0" x2="903.5" y2="540.0" stroke="#1c3a63" stroke-width="6" stroke-linecap="round"/><circle cx="903.5" cy="540.0" r="5" fill="#35578a"/>
+    <circle cx="920.0" cy="440.0" r="10" fill="#35578a"/>
+  </g>
+  <text x="48" y="844" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="1.5" fill="#35578a">PROJECT COVER IMAGE PLACEHOLDER</text>
+  <text x="48" y="870" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5a6472">replace with build photo — 1600x900</text>
+</svg>

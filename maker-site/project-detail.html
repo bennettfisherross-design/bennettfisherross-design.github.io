@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quadruped Mk. II — Bennett Ross</title>
+<meta name="description" content="Project write-up: Quadruped Mk. II — leg linkage design, custom BLDC drive, and gait control.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      Bennett Ross <span class="brand-mark">ME</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+    </nav>
+    <div class="nav-social">
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      </a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="detail-hero">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="projects.html">Projects</a> / Quadruped Mk. II</p>
+      <h1>Quadruped Mk. II</h1>
+      <div class="detail-meta">
+        <div><strong>Build No.</strong>003</div>
+        <div><strong>Category</strong>Quadruped Robot</div>
+        <div><strong>Timeline</strong>8 weeks</div>
+        <div><strong>Tools</strong>Fusion 360, KiCad</div>
+      </div>
+      <div class="hero-img">
+        <img src="assets/projects/detail-cover.svg" alt="Quadruped Mk. II robot, full build photo">
+      </div>
+    </div>
+  </section>
+
+  <section class="block tight">
+    <div class="wrap">
+      <div class="prose">
+        <p>
+          This is a template project page — replace this text with your own build write-up.
+          Aaed Musa's site pairs each YouTube video with a deeper technical breakdown; this
+          version is meant to stand on its own as a written build log, no video required.
+        </p>
+
+        <h2>Overview</h2>
+        <p>
+          Describe the goal of the build here: what problem it solved, what made it different
+          from the first version, and what the performance target was.
+        </p>
+
+        <h2>Design</h2>
+        <p>
+          Walk through the CAD process, key design decisions, and any trade-offs — for example,
+          why a particular linkage geometry or motor was chosen over the alternatives.
+        </p>
+        <ul>
+          <li>Leg linkage: five-bar mechanism for a larger workspace at low mass</li>
+          <li>Actuation: custom BLDC gimbal motors run as direct-drive joints</li>
+          <li>Structure: CNC-cut 6061 aluminum frame, 3D-printed leg segments</li>
+        </ul>
+
+        <h2>Build &amp; Fabrication</h2>
+        <p>
+          Document what actually happened on the bench — what fit right the first time, what
+          needed a second revision, and any manufacturing lessons worth remembering next time.
+        </p>
+
+        <h2>Results</h2>
+        <p>
+          Summarize how it performed against the goal, include any test data, and note what
+          you'd change in a Mk. III.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <div>
+        <h2>More builds like this</h2>
+        <p>Browse the rest of the projects on this site.</p>
+      </div>
+      <a href="projects.html" class="btn btn-outline">Back to Projects</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="foot-left">&copy; <span id="year"></span> Bennett Ross — Built with GitHub Pages</span>
+    <div class="foot-social">
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

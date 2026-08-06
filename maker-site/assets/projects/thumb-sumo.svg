@@ -1,0 +1,18 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#e7eaee" stroke-width="1"/>
+    </pattern></defs>
+  <rect width="800" height="600" fill="#f4f6f8"/>
+  <rect width="800" height="600" fill="url(#g)"/>
+  
+  <g>
+    <rect x="300.0" y="250.0" width="200" height="90" rx="8" fill="#0b1d3a"/>
+    <circle cx="330.0" cy="340.0" r="34" fill="none" stroke="#1c3a63" stroke-width="8"/>
+    <circle cx="470.0" cy="340.0" r="34" fill="none" stroke="#1c3a63" stroke-width="8"/>
+    <circle cx="330.0" cy="340.0" r="6" fill="#35578a"/>
+    <circle cx="470.0" cy="340.0" r="6" fill="#35578a"/>
+    <rect x="360.0" y="210.0" width="80" height="40" rx="4" fill="#1c3a63"/>
+  </g>
+  <text x="24" y="554" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1" fill="#35578a">BUILD // 04</text>
+  <text x="24" y="576" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="600" fill="#0b1d3a">SUMO BOT</text>
+</svg>
