@@ -21,7 +21,7 @@ assets/                Placeholder images (SVG) — swap these for your own phot
 3. In the repo, go to **Settings → Pages**, set the source branch (e.g. `main`)
    and folder (`/root` or `/docs`), and save.
 4. Your site will be live at `https://<username>.github.io/<repo-name>/`
-   (or `https://<username>.github.io/` if the repo is named `<username>.github.io`).
+   (or `https://<username>.github.io/` if the repo is named `<username>.github.io`). (this one)
 
 ## Customizing
 
