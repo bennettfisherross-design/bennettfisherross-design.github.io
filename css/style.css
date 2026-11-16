@@ -65,6 +65,24 @@ ul { list-style: none; margin: 0; padding: 0; }
   padding: 0 var(--edge);
 }
 
+.standard-link {
+  color: #0066cc;               /* Distinct link color */
+  text-decoration: underline;   /* Classic underline */
+  cursor: pointer;              /* Hand icon on hover */
+}
+
+/* Hover and keyboard focus states */
+.standard-link:hover,
+.standard-link:focus {
+  color: #004499;               /* Slightly darker on hover */
+  text-decoration-thickness: 2px;
+}
+
+/* While being clicked */
+.standard-link:active {
+  color: #cc0000;
+}
+
 /* ----------------------------------------------------------
    Blueprint grid background — used behind the hero
    ---------------------------------------------------------- */
